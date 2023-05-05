@@ -19,11 +19,11 @@ const Inscription = () => {
                     <Form.Label>Address Email</Form.Label>
                     <Form.Control type="email" />
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicTel">
+                <Form.Group className="mb-4" controlId="formBasicTel">
                     <Form.Label>Telephone</Form.Label>
                     <Form.Control type="tel" />
                 </Form.Group>
-                <Link to="#" className="btn btn-success">S'inscrire</Link> 
+                <Link to="#" className="btn btn-success w-100 mb-3">S'inscrire</Link> 
                 <Link to="/connexion" className="float-end text-decoration-none text-secondary">Vous avez deja un compte?</Link>
             </Form>
         </div>
