@@ -1,8 +1,9 @@
 import React from 'react';
 import Form from 'react-bootstrap/Form';
+import Bakeli from '../../image/Bakeli.png'
 import Row from 'react-bootstrap/Row';
 import {Link} from 'react-router-dom';
-import Bakeli from '../../image/Bakeli.png'
+
 
 const Connexion = () => {
   return (

@@ -1,11 +1,13 @@
 import React from 'react';
 import Form from 'react-bootstrap/Form';
+import Bakeli from '../../image/Bakeli.png'
 import {Link} from 'react-router-dom'; 
 
 const Inscription = () => {
   return (
         <div className='text-start w-50 p-5'>
             <Form>
+            <img src={Bakeli} className='' height={50} width={50} />
                 <Form.Group className="mb-3" controlId="formBasicNom">
                     <Form.Label>Nom</Form.Label>
                     <Form.Control type="text" placeholder="Entrer votre nom" />
