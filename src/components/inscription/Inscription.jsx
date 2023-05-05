@@ -5,23 +5,26 @@ import {Link} from 'react-router-dom';
 
 const Inscription = () => {
   return (
-        <div className='text-start w-50 p-5'>
-            <Form>
-            <img src={Bakeli} className='' height={50} width={50} />
+    <div className='container text-start d-flex justify-content-center  p-5'>
+    <Form className='w-50'>
+        <div className='text-center'>
+           <img src={Bakeli} className='' height={100} width={100} />
+           <h4 className='text-warning mb-3'>INSCRIPTION</h4>
+        </div>
                 <Form.Group className="mb-3" controlId="formBasicNom">
                     <Form.Label>Nom</Form.Label>
-                    <Form.Control type="text" placeholder="Entrer votre nom" />
+                    <Form.Control type="text" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Address Email</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" />
+                    <Form.Control type="email" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicTel">
                     <Form.Label>Telephone</Form.Label>
-                    <Form.Control type="tel" placeholder="Enter votre numero" />
+                    <Form.Control type="tel" />
                 </Form.Group>
-                <Link to="#" className="">S'inscrire</Link> 
-                <Link to="/connexion" className="float-end">Vous avez deja un compte?</Link>
+                <Link to="#" className="btn btn-success">S'inscrire</Link> 
+                <Link to="/connexion" className="float-end text-decoration-none text-secondary">Vous avez deja un compte?</Link>
             </Form>
         </div>
   )
