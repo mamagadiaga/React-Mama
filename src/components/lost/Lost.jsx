@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 const Lost = () => {
   return (
         <div className='container text-start d-flex justify-content-center p-5'>
-            <Form className='w-50'>
+            <Form className='w-50 formulaire'>
             <div className='text-center'>
             <img src={Bakeli}  height={100} width={100} />
             <h4 className='text-warning mb-3'>RECUPERATION MOT DE PASSE</h4>

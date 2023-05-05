@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 790px) {
+  .formulaire{
+    width: 100% !important;
+  }
+  .pdgtop{
+    padding-top: 0 !important;
+  }
+}

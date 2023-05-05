@@ -5,8 +5,8 @@ import {Link} from 'react-router-dom';
 
 const Inscription = () => {
   return (
-    <div className='container text-start d-flex justify-content-center  p-5'>
-    <Form className='w-50'>
+    <div className='container text-start d-flex justify-content-center pdgtop p-5'>
+    <Form className='w-50 formulaire'>
         <div className='text-center'>
            <img src={Bakeli} className='' height={100} width={100} />
            <h4 className='text-warning mb-3'>INSCRIPTION</h4>
