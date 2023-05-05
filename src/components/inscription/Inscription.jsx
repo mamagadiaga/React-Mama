@@ -20,7 +20,7 @@ const Inscription = () => {
                     <Form.Label>Telephone</Form.Label>
                     <Form.Control type="tel" placeholder="Enter votre numero" />
                 </Form.Group>
-                <Link to="#" className="">S'inscrire</Link>
+                <Link to="#" className="">S'inscrire</Link> 
                 <Link to="/connexion" className="float-end">Vous avez deja un compte?</Link>
             </Form>
         </div>
